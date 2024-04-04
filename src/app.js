@@ -1,5 +1,5 @@
 const express = require('express');
-
+//更新定义
 require('dotenv').config({ path: `.env.${process.env.NODE_ENV}` });
 
 const morgan = require('morgan');
